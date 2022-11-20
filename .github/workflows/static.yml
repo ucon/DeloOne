@@ -57,9 +57,9 @@ jobs:
       - name: Publish .NET Core Project
         run: dotnet publish DeloOne.csproj -c Release -o release --nologo
       - name: Commit wwwroot to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: JamesIves/github-pages-deploy-action@v4.1.4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: gh-pages
+          branch: master
           folder: release/wwwroot
     
