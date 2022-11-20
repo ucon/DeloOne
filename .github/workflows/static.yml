@@ -31,11 +31,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         
-        # sets up .NET Core SDK 3.1
+      # sets up .NET Core SDK 3.1
       - name: Setup .NET Core SDK
         uses: actions/setup-dotnet@v1
         with: 
-          dotnet-version: 6.0
+          dotnet-version: 1.2.3
         
       - name: Setup Pages
         uses: actions/configure-pages@v2
