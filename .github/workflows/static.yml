@@ -17,7 +17,6 @@ permissions:
   deployments: write
   issues: write
   packages: write
-  pages: write
   repository-projects: write
   security-events: write
 
